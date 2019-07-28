@@ -10,8 +10,164 @@
 	<link rel="stylesheet" href="css/fixed.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
 
+	<!-- Home Section -->
+	<div id="home">
+
+		<!-- Navigations -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#"><img src="img/nuno.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#course">Course</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#resources">Resources</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#clients">Clients</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Landing Page -->
+
+		<div class="landing">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+
+		<div class="caption text-center">
+			<h1>Welcome to Nuno</h1>
+			<h3>Udemy Bootstrap 4 Course</h3>
+			<a class="btn btn-outline-light btn-lg" href="#course">Get Started</a>
+		</div>
+		<!-- End Landing Page -->
+
+	</div>
+	<!-- End Home Section -->
+
+	<!-- Course Section -->
+	<div id="course" class="offset">
+		<div class="col-12 narrow text-center">
+			<h1>Nuno Theme Advanced Bootstrap Course</h1>
+			<p class="lead">Test paragraph test</p>
+			<a class="btn btn-secondary btn-md" href="#" target="_blank">Test Link</a>
+		</div>
+	</div>
+	<!-- End Course Section -->
+
+	<!-- Features Section -->
+	<div id="features" class="offset">
+		<div class="jumbotron">
+			<div class="narrow text-center">
+				<div class="col-12">
+					<h3 class="heading">Features</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="row text-center">
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="fas fa-play-circle fa-4x" data-fa-transform="shrink-3 up-5"></i>
+							<h3>Custom Animations</h3>
+							<p>Test custom animation text</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="fas fa-sliders-h fa-4x" data-fa-transform="shrink-4.5 up-4.5"></i>
+							<h3>Content Slider</h3>
+							<p>Test content slider text</p>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="feature">
+							<i class="fab fa-wpforms fa-4x" data-fa-transform="shrink-4 up-5"></i>
+							<h3>Contact Form</h3>
+							<p>Test contact form text</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- End Features Section -->
+
+	<!-- Start Resources Section -->
+	<div id="resources" class="offset">
+		<div class="fixed-background">
+			<div class="row dark text-center">
+
+				<div class="col-12">
+					<h3 class="heading">Built With Care</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-md-4">
+					<h3>HTML 5</h3>
+					<div class="feature">
+						<i class="fas fa-code fa-3x"></i>
+					</div>
+					<p class="lead">Built with the latest HTML5</p>
+				</div>
+
+				<div class="col-md-4">
+					<h3>BOOTSTRAP 4</h3>
+					<div class="feature">
+						<i class="fas fa-bold fa-3x"></i>
+					</div>
+					<p class="lead">Built with the latest Bootstrap 4</p>
+				</div>
+
+				<div class="col-md-4">
+					<h3>CSS 3</h3>
+					<div class="feature">
+						<i class="fab fa-css3 fa-3x"></i>
+					</div>
+					<p class="lead">Built with the latest CSS3</p>
+				</div>
+
+			</div>
+			<div class="fixed-wrap">
+				<div class="fixed">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Resources Section -->
+
+	<!-- Start Clients Section -->
+	<div id="clients" class="offset">
+
+	</div>
+	<!-- End Clients Section -->
+
+	<!-- Start Contact Section -->
+	<div id="contact" class="offset">
+
+	</div>
+	<!-- End Contact Section -->
 
 
 	<!--- Script Source Files -->
@@ -23,14 +179,3 @@
 </body>
 
 </html>
-
-
-
-
-<!--- Check out my course on Udemy! -->
-<div class="udemy-course" style="position: fixed; bottom: 0; right: 0; margin-bottom: -5px; z-index: 100;">
-	<a href="http://bit.ly/advanced-bootstrap-course" target="_blank"
-		style="z-index: 999!important; cursor: pointer!important;"><img
-			src="https://www.w3newbie.com/wp-content/uploads/nuno-udemy-banner.png"
-			style="max-width: 100%; min-width: 100%;"></a>
-</div>
