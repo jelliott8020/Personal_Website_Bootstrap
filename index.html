@@ -17,7 +17,14 @@
 
 		<!-- Navigations -->
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-			<a class="navbar-brand" href="#"><img src="img/nuno.png"></a>
+			<a class="navbar-brand" href="#">
+				<!--<img src="img/nuno.png">-->
+				<div class="header-tree">
+					<i class="fas fa-tree"></i>
+					RSST
+				</div>
+
+			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -28,16 +35,13 @@
 						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#course">Course</a>
+						<a class="nav-link" href="#projects">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#features">Features</a>
+						<a class="nav-link" href="#books">Books</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#resources">Resources</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#clients">Clients</a>
+						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact">Contact</a>
@@ -57,8 +61,8 @@
 		</div>
 
 		<div class="caption text-center">
-			<h1>Welcome to Nuno</h1>
-			<h3>Udemy Bootstrap 4 Course</h3>
+			<h1>Rough Seas beget Strong Trees</h1>
+			<h3>Stoicism, Book Summaries, Projects</h3>
 			<a class="btn btn-outline-light btn-lg" href="#course">Get Started</a>
 		</div>
 		<!-- End Landing Page -->
@@ -66,12 +70,21 @@
 	</div>
 	<!-- End Home Section -->
 
-	<!-- Course Section -->
+	<!-- Seneca Quote Section -->
 	<div id="course" class="offset">
 		<div class="col-12 narrow text-center">
-			<h1>Nuno Theme Advanced Bootstrap Course</h1>
-			<p class="lead">Test paragraph test</p>
-			<a class="btn btn-secondary btn-md" href="#" target="_blank">Test Link</a>
+			<!--<h1>Nuno Theme Advanced Bootstrap Course</h1>-->
+			<h3 class="lead">Why, then, do you wonder that good men are shaken in order
+				that they may grow strong? No tree becomes rooted and sturdy unless many
+				a wind assails it. For by its very tossing it tightens its grip and plants
+				its roots more securely; the fragile trees are those that have grown in a
+				sunny valley. It is, therefore, to the advantage even of good men, to the
+				end that they may be unafraid, to live constantly amidst alarms and to bear
+				with patience the happenings which are ills to him only who ill supports them.
+			</h3>
+
+			<p> - Seneca, <i>On Providence</i></p>
+			<!--<a class="btn btn-secondary btn-md" href="#" target="_blank">Test Link</a>-->
 		</div>
 	</div>
 	<!-- End Course Section -->
@@ -159,13 +172,74 @@
 
 	<!-- Start Clients Section -->
 	<div id="clients" class="offset">
+		<div class="jumbotron">
+			<div class="col-12 text-center">
+				<h3 class="heading">Clients</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 clients">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="img/client1.png">
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i class="fas fa-quote-left"></i>
+								Text test
+								<hr class="clients-hr">
+								<cite>&#8212; Eric, Small Business Owner</cite>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 clients">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="img/client2.png">
+						</div>
+						<div class="col-md-8">
+							<blockquote>
+								<i class="fas fa-quote-left"></i>
+								Text test
+								<hr class="clients-hr">
+								<cite>&#8212; Rachel, Big Business Owner</cite>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End Row-->
+		</div>
+		<!--End Jumbo-->
+
+		<div class="col-12 narrow text-center">
+			<p class="lead">Want to learn more about bootstrap?</p>
+			<a class="btn btn-secondary btn-md" href="https://google.com" target="_blank">Google</a>
+		</div>
 
 	</div>
 	<!-- End Clients Section -->
 
 	<!-- Start Contact Section -->
 	<div id="contact" class="offset">
+		<footer>
+			<div class="row justify-content-center">
+				<div class="col-md-5 text-center">
+					<img src="img/nuno.png">
+					<p>Contact test text</p>
+					<strong>Contact Info</strong>
+					<p>(888) 888-8888<br>email@gmail.com</p>
+					<a href="facebook.com" target="-blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="twitter.com" target="-blank"><i class="fab fa-twitter-square"></i></a>
+					<a href="instagram.com" target="-blank"><i class="fab fa-instagram"></i></a>
+				</div>
 
+				<hr class="socket">
+				&copy; Rough Seas, Strong Trees.
+			</div>
+		</footer>
 	</div>
 	<!-- End Contact Section -->
 
